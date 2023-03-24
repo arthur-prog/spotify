@@ -42,7 +42,9 @@ const SongList = (playlist: PlaylistInterface) => {
         return songs.filter((song: SongInterface) =>
             song.title.startsWith(text) ||
             song.artist.startsWith(text) ||
-            song.genre.startsWith(text)
+            song.genre.startsWith(text) ||
+            parseInt(text) === song.popularity ||
+            parseInt(text) === song.year
         )
     }
 
