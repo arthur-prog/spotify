@@ -138,3 +138,14 @@ table {
 * {
     font-family: 'DMSans', sans-serif !important;
 }
+
+@font-face {
+    font-family: "DMSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../public/fonts/DMSans/DMSans-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: 'DMSans', sans-serif !important;
+}
