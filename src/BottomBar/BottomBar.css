@@ -1,0 +1,95 @@
+#bottom-bar{
+    position: absolute;
+    width: 1920px;
+    height: 112px;
+    left: 0;
+    top: 795px;
+
+    background: #181818;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-bar-left{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 20px;
+    margin-top: 20px ;
+}
+
+.bottom-bar-playlist-img{
+    width: 75px;
+    height: 75px;
+}
+
+.bottom-bar-left-div-song{
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.bottom-bar-song-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+}
+
+.bottom-bar-song-artist{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    color: #B3B3B3;
+}
+
+.bottom-bar-heart-button-div{
+    margin-left: 17px;
+    margin-top: 22px;
+}
+
+.bottom-bar-div-top-50{
+    height: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom-bar-center{
+    position: absolute;
+    bottom: 15px;
+    left: 610px;
+}
+
+.bottom-bar-center-top{
+    margin-top: 18px;
+    margin-left: 248px;
+    height: 42.5px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.bottom-bar-center-elt{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottom-bar-center-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-bar-right{
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}

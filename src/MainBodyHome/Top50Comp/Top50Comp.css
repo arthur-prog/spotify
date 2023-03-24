@@ -1,0 +1,64 @@
+.top50-button{
+    height: 300px;
+    width: 231px;
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    margin-right: 27px;
+    margin-top: 30px;
+}
+
+.top50-button:hover{
+    color: white;
+}
+
+.top50-img-bg{
+
+    width: 191px;
+    height: 191px;
+
+    border-radius: 14px;
+
+    text-align: center;
+    vertical-align: center;
+
+    padding-top: 54px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+
+    color: white;
+}
+
+.top50-title2{
+    margin-top: 26px;
+    width: 194px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.top50-subtitle2{
+    width: 33px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #B3B3B3;
+}

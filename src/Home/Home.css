@@ -1,0 +1,6 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    height: 907px;
+    width: 1920px;
+}

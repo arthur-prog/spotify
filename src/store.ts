@@ -1,8 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
-import playlistsReducer, { Playlist } from './Slices/playlistsSlice';
+import playlistsReducer, {PlaylistInterface, SongInterface, SongPlaylistInterface} from './Slices/playlistsSlice';
 
 export interface State {
-    playlists: Playlist[];
+    playlists: {
+        items: PlaylistInterface[],
+        top50: PlaylistInterface[],
+        currentSong: SongPlaylistInterface,
+        addPlaylistModal: boolean
+        addToPlaylistModal: boolean
+        songAddToPlaylistModal: SongInterface | null
+    };
 }
 
 export default configureStore({

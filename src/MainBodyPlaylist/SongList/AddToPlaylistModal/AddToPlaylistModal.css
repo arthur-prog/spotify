@@ -1,0 +1,17 @@
+
+
+.add-playlist-modal-input{
+    margin-left: 0;
+    gap: 16px;
+
+    width: 215px;
+    height: 30px;
+
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 26px;
+
+}
+
+.add-to-playlist-modal-title-div{
+    cursor: pointer;
+}

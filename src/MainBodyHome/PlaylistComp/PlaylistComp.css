@@ -1,0 +1,39 @@
+.playlist-button{
+    background-color: #303030;
+    width: 362px;
+    height: 100px;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    margin-right: 24px;
+    margin-top: 30px;
+}
+
+.icon{
+    margin-top: 36px;
+    height: 28px;
+}
+
+.playlist-img-bg{
+    width: 100px;
+    height: 100px;
+    border-radius: 1px;
+}
+
+.playlist-title{
+    width: 111px;
+    height: 26px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.title-container{
+    padding-left: 21px;
+    padding-top: 37px;
+}

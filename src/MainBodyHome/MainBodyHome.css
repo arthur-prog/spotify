@@ -1,0 +1,55 @@
+#main-body{
+    height: 726px;
+    width: 1619px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 40px;
+
+    background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 96%, #343434FF 100%);
+
+}
+
+#main-body::-webkit-scrollbar{
+    display: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title{
+    /* Your playlists */
+
+    width: 280px;
+    height: 56px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.top50-title{
+
+    margin-top: 90px;
+
+    width: 280px;
+    height: 56px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.top50-link{
+    text-decoration: none;
+}

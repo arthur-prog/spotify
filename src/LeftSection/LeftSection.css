@@ -1,0 +1,163 @@
+#menu{
+    height: 795px;
+    width: 301px;
+    background-color: black;
+}
+
+#logo{
+    width: 164px;
+    height: 49px;
+    margin-left: 29px;
+    margin-top: 32px;
+}
+
+#home-btn{
+    padding: 0;
+    width: 260px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 31px;
+
+    display: flex;
+    flex-direction: row;
+
+    background: #282828;
+    border-radius: 6px;
+}
+
+#home-title{
+    margin-left: 23px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+}
+
+#logo-home{
+    margin-top: 12px;
+    margin-left: 24px;
+    width: 25px;
+    height: 25px;
+
+}
+
+#middle-options{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.playlist-btn{
+    background-color: black;
+    border: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#white-rectangle{
+    width: 30px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border-radius: 1px;
+
+}
+
+#add{
+    margin-top: 9px;
+}
+
+#create-playlist-title{
+    text-decoration: none !important;
+    margin-left: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.0525em;
+
+    color: #FFFFFF;
+}
+
+#playlist-liked-btn{
+    margin-top: 20px;
+}
+
+#like{
+    margin-top: 11px;
+    height: 8px;
+}
+
+#liked-bg{
+    width: 30px;
+    height: 30px;
+
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+    border-radius: 1px;
+
+}
+
+#playlists{
+    margin-top: 30px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    max-height: 480px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    /* identical to box height */
+    letter-spacing: -0.0525em;
+
+    color: white;
+
+    overflow-y: scroll;
+}
+
+#playlists::-webkit-scrollbar{
+    display: none;
+}
+
+.playlist-link{
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.playlist{
+    color: #FFFFFF;
+    border: none;
+    background-color: black;
+}
+
+.modal{
+    width: 245px;
+    height: 45px;
+    background: linear-gradient(180deg, #222222 0%, #161616 100%);
+}
+
+.modal-title{
+    margin-left: 20px;
+    margin-top: 13px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+
+    color: #FFFFFF;
+}
+
+.modal-content{
+    width: 245px;
+    height: 101px;
+    background: #282828;
+    border-radius: 5px;
+}

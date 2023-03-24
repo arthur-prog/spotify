@@ -1,0 +1,18 @@
+.add-playlist-modal{
+    width: 245px !important;
+}
+
+.add-to-playlist-modal-playlist-title{
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    letter-spacing: -0.0525em;
+
+    color: #FFFFFF;
+
+
+}

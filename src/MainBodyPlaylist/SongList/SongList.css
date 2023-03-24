@@ -1,0 +1,67 @@
+.song-list{
+    max-height: 550px;
+    padding: 0 15px 28px 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.song-list::-webkit-scrollbar{
+    display: none;
+}
+
+.song-list-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+
+    width: 256px;
+    height: 32px;
+
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 26px;
+}
+
+.song-list-header-div{
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.song-list-select{
+    margin-left: 8px;
+    width: 104.2px;
+    height: 32px;
+}
+
+.song-list-no-songs{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.ant-table{
+    background-color: transparent !important;
+}
+
+.ant-table-tbody > tr > td {
+    border: none !important;
+}
+
+.ant-table-thead > tr > th {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.ant-table-thead > tr > td {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th, .ant-table-wrapper .ant-table-thead >tr>td{
+    position : unset !important;
+}
