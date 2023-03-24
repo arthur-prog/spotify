@@ -27,45 +27,45 @@
 
 ### Playlist page
 
--   [ ] Display your playlist
--   [ ] Display all the top 50 playlist given in file `src/static/data.json` by year as displayed on figma
--   [ ] Click on a playlist will redirect to the playlist page
+-   [X] Display your playlist
+-   [X] Display all the top 50 playlist given in file `src/static/data.json` by year as displayed on figma
+-   [X] Click on a playlist will redirect to the playlist page
 
 ### Playlist page
 
--   [ ] Header 
-    -   [ ] Color background based on playlist's cover color
-    -   [ ] Playlist cover
-    -   [ ] Playlist name
--   [ ] Body
-    -   [ ] Text input to filter on any data in the current playlist (case insensitive)
-    -   [ ] Select input with sorting on 
-        -   [ ] Title
-        -   [ ] Year
-        -   [ ] Genre
-        -   [ ] Popularity
-        -   [ ] Duration 
-    -   [ ] Display all songs of the current playlist
-    -   [ ] Display a green heart if the song as been liked
-    -   [ ] Clicking on heart will add / remove from liked playlist
-    -   [ ] Contextual menu will display list of playlist, click on one will add song to it
+-   [X] Header 
+    -   [X] Color background based on playlist's cover color
+    -   [X] Playlist cover
+    -   [X] Playlist name
+-   [X] Body
+    -   [X] Text input to filter on any data in the current playlist (case insensitive)
+    -   [X] Select input with sorting on 
+        -   [X] Title
+        -   [X] Year
+        -   [X] Genre
+        -   [X] Popularity
+        -   [X] Duration 
+    -   [X] Display all songs of the current playlist
+    -   [X] Display a green heart if the song as been liked
+    -   [X] Clicking on heart will add / remove from liked playlist
+    -   [X] Contextual menu will display list of playlist, click on one will add song to it
 
 ## Left drawer
 
--   [ ] Display spotify icon on top
--   [ ] LeftSection must contain
-    -   [ ] Link to home page
-    -   [ ] Button to create a playlist
-        -   [ ] Click on it will open a modal with a text input and add button
-        -   [ ] When creating a playlist you need to generate a linear gradient background color. These color must be random
-    -   [ ] Link to liked songs
-    -   [ ] List and link to all playlist
+-   [X] Display spotify icon on top
+-   [X] LeftSection must contain
+    -   [X] Link to home page
+    -   [X] Button to create a playlist
+        -   [X] Click on it will open a modal with a text input and add button
+        -   [X] When creating a playlist you need to generate a linear gradient background color. These color must be random
+    -   [X] Link to liked songs
+    -   [X] List and link to all playlist
 
 ## Footer
 
--   [ ] On the left display playlist cover with name of music currently selected
--   [ ] Display a fake player in the center
--   [ ] Display fake control button on the right
+-   [X] On the left display playlist cover with name of music currently selected
+-   [X] Display a fake player in the center
+-   [X] Display fake control button on the right
 
 ## General informations
 
